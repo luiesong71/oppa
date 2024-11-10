@@ -70,8 +70,8 @@ export default function ExplorePage() {
       <Head>
         <title>OPPA</title>
         <link rel="icon" href="/favicon.png" />
-        <meta property="og:title" content=" STO Market" />
-        <meta property="og:description" content="STO marketplace" />
+        <meta property="og:title" content=" OPPA Market" />
+        <meta property="og:description" content="OPPA marketplace" />
         <meta property="og:image" content="https://untactict.vercel.app/assets/png/logo.png"/>
       </Head>
 

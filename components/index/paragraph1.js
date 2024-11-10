@@ -19,14 +19,14 @@ export default function Paragraph1() {
           <div className="">
             <Link href="./categories">
               <button className="rounded-full bg-gradient-to-b from-[#1E1E1E] to-[#1E1E1E] text-white text-xs sm:text-base px-6 sm:px-10 py-1.5 sm:py-2 shadow-lg">
-                STO 마켓
+                OPPA 마켓
               </button>
             </Link>
           </div>
           <div className="">
             <Link href="./create-nft">
               <button className="rounded-full border text-white dark:text-gray-800 text-xs sm:text-base px-6 sm:px-10 py-1.5 sm:py-2 dark:border-gray-300 shadow-lg">
-                STO 생성
+                OPPA 생성
               </button>
             </Link>
           </div>

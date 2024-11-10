@@ -286,7 +286,7 @@ export default function Paragraph4() {
         {/* categories */}
         <div className="flex flex-col space-y-12">
           <h1 className="text-white dark:text-gray-800 text-2xl sm:text-4xl font-bold">
-            원하시는 STO를 수집하세요
+            원하시는 OPPA를 수집하세요
           </h1>
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0">
             <div className="flex flex-col md:flex-row space-y-2 md:space-x-2 md:space-y-0">
