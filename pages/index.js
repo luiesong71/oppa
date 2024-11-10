@@ -84,7 +84,7 @@ export default function ExplorePage() {
           <Gallery />
           <Paragraph4></Paragraph4>
 
-          <Modal
+          {/* <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
         contentLabel="Coin Prices"
@@ -106,7 +106,7 @@ export default function ExplorePage() {
           </ul>
           <button style={buttonStyle} onClick={closeModal}>Close</button>
         </div>
-      </Modal> 
+      </Modal>  */}
 
         </div>
       </div>
