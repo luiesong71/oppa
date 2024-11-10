@@ -36,7 +36,7 @@ export default function Paragraph1() {
       {/* right element : background image */}
       <div className="flex-1 flex items-center">
         <img
-          src="/assets/svg/head.svg"
+          src="/assets/svg/head.png"
           alt="BgEthereumNFT"
           className="w-full h-auto object-cover"
         ></img>
