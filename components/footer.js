@@ -11,13 +11,15 @@ export default function Footer() {
                 className="w-[60] lg:w-[12vw] h-auto"
               ></img>
               <p>
-              Best P2E NFT Blockchain Game & New RPG of collection and strategy 'CryptoArc'{" "}
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s{" "}
               </p>
             </div>
 
             <div className="flex-grow flex flex-col md:flex-row mt-0 md:mt-8">
               <div className="grow leading-8 my-8 md:my-0">
-                <h1 className="text-2xl leading-10">Explore</h1>
+                <h1 className="text-2xl leading-10">STO마켓</h1>
                 <p>Services</p>
                 <p>Packages</p>
                 <p>Telemedicine</p>
@@ -25,14 +27,14 @@ export default function Footer() {
               </div>
 
               <div className="grow leading-8">
-                <h1 className="text-2xl leading-10">About us</h1>
+                <h1 className="text-2xl leading-10">회사소개</h1>
                 <p>About us</p>
                 <p>Blog</p>
                 <p>Contact us</p>
               </div>
 
               <div className="grow leading-8 my-8 md:my-0">
-                <h1 className="text-2xl leading-10">Terms and Conditions</h1>
+                <h1 className="text-2xl leading-10">이용약관</h1>
                 <p>Privacy</p>
                 <p>Safety</p>
                 <p>Terms of use</p>
@@ -54,10 +56,10 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col lg:flex-row mx-4 mb-2 sm:mx-8 sm:mb-4 lg:mx-[6vw] lg:mb-[3vw]">
-            <p className="flex-none">© 2023 Crypto ARC. All rights reserved.</p>
+            <p className="flex-none">© 2023 Starus. All rights reserved.</p>
             <p className="flex-none mx-0 lg:mx-8">Privacy policy</p>
             <p className="flex-grow">Terms & Conditions</p>
-            <p className="flex-none">Crypto ARC</p>
+            <p className="flex-none">Starus.com</p>
           </div>
         </div>
       </div>

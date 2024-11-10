@@ -85,7 +85,7 @@ export default function ArtPreview(props) {
               />
             </div>
             <h1 className="flex-grow text-[#FFCC33] text-base ml-2">
-              {props.children.item.price} ARC
+              {props.children.item.price} UTI
             </h1>
           </div>
         </div>

@@ -253,7 +253,7 @@ export default function myProfilePage() {
                     <button
                       onClick={() => {
                         navigator.clipboard.writeText(
-                          `https://Crypto ARC-nft.vercel.app/account/${account}`
+                          `https://untactict.vercel.app/account/${account}`
                         );
                       }}
                     >

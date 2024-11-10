@@ -7,40 +7,40 @@ export default function Paragraph3() {
   const sellNftDetails = [
     {
       iconUrl: "/assets/svg/coin",
-      title: "CryptoArc",
+      title: "STARUS GALLARY",
       description:
-        "CryptoArc",
+        "Create and deploy NFT to Blockchain network and connect it to your marketplace",
     },
     {
       iconUrl: "/assets/svg/sell-nft-icon3",
-      title: "CryptoArc",
+      title: "STARUS GALLARY",
       description:
-        "CryptoArc",
+        "Once you set up wallet of choice, connect it to Starus by clicking the wallet icon in the top right corner. Learn about the wallets we support",
     },
     {
       iconUrl: "/assets/svg/sell-nft-icon1",
-      title: "CryptoArc",
+      title: "STARUS GALLARY",
       description:
-        "CryptoArc",
+        "Upload your work, add a title and description, and customize your NFTs with properties, stats, and unlockable content",
     },
     {
       iconUrl: "/assets/svg/sell-nft-icon2",
-      title: "CryptoArc",
+      title: "STARUS GALLARY",
       description:
-        "CryptoArc",
+        "You can Buy and Sell any NFT items that is buy from other user with new price and share it with friends",
     },
 
     {
       iconUrl: "/assets/svg/sell-nft-icon4",
-      title: "CryptoArc",
+      title: "STARUS GALLARY",
       description:
-        "CryptoArc",
+        "Sell your items with price and also have ability to cancel anytime from sale and edit price can work at Token and bnb and polygon net, any network with solidity",
     },
     {
       iconUrl: "/assets/svg/sell-nft-icon2",
-      title: "CryptoArc",
+      title: "STARUS GALLARY",
       description:
-        "CryptoArc",
+        "You can resell any NFT items that is buy from other user with new price and share it with friends",
     },
   ];
 

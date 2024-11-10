@@ -24,9 +24,9 @@ export default function Header(props) {
   const { themeMode, toggleThemeMode } = useContext(ThemeContext);
 
   const headers = [
-    { name: "Explore", href: "/explore " },
-    { name: "Categories", href: "/categories" },
-    { name: "Create NFT", href: "/create-nft" },
+    { name: "STO마켓", href: "/explore " },
+    { name: "STO종목", href: "/categories" },
+    { name: "STO생성", href: "/create-nft" },
   ];
 
   function classNames(...classes) {
@@ -247,7 +247,7 @@ export default function Header(props) {
                                   {accountBalance} BNB
                                 </p>
                                 <p className="text-[#7D82B2] dark:text-gray-800 text-xs text-left">
-                                  {tokenBalance} ARC
+                                  {tokenBalance} UTI
                                 </p>
                               </div>
                             </div>
@@ -281,7 +281,7 @@ export default function Header(props) {
                                           {accountBalance} BNB
                                         </p>
                                         <p className="text-[#7D82B2] dark:text-gray-800 text-xs text-left">
-                                          {tokenBalance} ARC
+                                          {tokenBalance} UTI
                                         </p>
                                       </div>
                                       <div className="grid place-items-center w-[22px] h-[22px] bg-[#FFCC33] text-[#FAD804] text-xs font-bold rounded-sm">
@@ -342,9 +342,8 @@ export default function Header(props) {
                         className="rounded-md bg-gradient-to-b  m-6 from-[#FFBD4A] to-[#FFBD4A] text-black text-base  sm:px-2 shadow-lg"
                         onClick={connectMetamask}
                       >
-                        Connect Wallet
+                        코인지갑
                       </button>
-                      
                     )}
                   </div>
                 </div>
@@ -400,7 +399,7 @@ export default function Header(props) {
                         className="rounded-md bg-gradient-to-b  m-6 from-[#FFBD4A] to-[#FFBD4A] text-black text-base  sm:px-2 shadow-lg"
                         onClick={connectMetamask}
                       >
-                        Connect Wallet
+                        코인지갑 
                       </button>
               </div>
 
@@ -421,7 +420,7 @@ export default function Header(props) {
                               {accountBalance} BNB
                             </p>
                             <p className="text-[#7D82B2] dark:text-gray-800 text-xs text-left">
-                              {tokenBalance} ARC
+                              {tokenBalance} UTI
                             </p>
                           </div>
                         </div>
@@ -439,7 +438,7 @@ export default function Header(props) {
                                     {accountBalance} BNB
                                   </p>
                                   <p className="text-[#7D82B2] dark:text-gray-800 text-xs text-left">
-                                    {tokenBalance} ARC
+                                    {tokenBalance} UTI
                                   </p>
                                 </div>
                                 <div className="grid place-items-center w-[22px] h-[22px] bg-[#FFCC33] text-[#FAD804] text-xs font-bold rounded-sm">
@@ -492,13 +491,19 @@ export default function Header(props) {
           <SuccessDialog
             show={successOpen}
             closeSuccessModal={closeSuccessModal}
+            
           >
             {{
-              msg: "PLease Connect MetaMask With Binance NetWork",
-              title: "Attention",
-              buttonTitle: "Cancel",
+              msg: "메타마스크를 설치해주세요",
+              title: "주의사항",
+              buttonTitle: "지갑접속",              
+              
+                        
             }}
+            
+           
           </SuccessDialog>
+          
         </div>
       )}
     </Disclosure>

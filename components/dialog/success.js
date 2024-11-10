@@ -3,6 +3,14 @@ import { Dialog, Transition } from '@headlessui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
+const handleButtonClick = () => {
+    // 새로운 사이트의 URL을 여기에 입력합니다.
+    const newSiteUrl = 'https://play.google.com/store/apps/details?id=io.metamask&hl=ko&gl=US';
+    
+    // 현재 창에서 새로운 사이트로 이동
+    window.location.href = newSiteUrl;
+  };
+
 export default function SuccessDialog(props) {
 
     let msg ;
@@ -85,7 +93,11 @@ export default function SuccessDialog(props) {
                         <div className='text-white dark:text-gray-600 text-3xl font-semibold'>{title}</div>
                         <div className='text-[#6C71AD] dark:text-gray-600 text-sm'>{msg}</div>
                         <div className='pt-4'>
-                            <button className='rounded-full bg-gradient-to-b from-[#1E1E1E] to-[#1E1E1E] text-white px-16 py-2 shadow-md' onClick={props.closeSuccessModal}>{buttonTitle}</button>
+                            
+                            {/* <button className='rounded-full bg-gradient-to-b from-[#1E1E1E] to-[#1E1E1E] text-white px-16 py-2 shadow-md' onClick={props.closeSuccessModal}>{buttonTitle}</button> */}
+                            <button className='rounded-full bg-gradient-to-b from-[#1E1E1E] to-[#1E1E1E] text-white px-16 py-2 shadow-md' onClick={handleButtonClick}>{buttonTitle}</button> &nbsp;
+                            <button className='rounded-full bg-gradient-to-b from-[#1E1E1E] to-[#1E1E1E] text-white px-16 py-2 shadow-md' onClick={props.closeSuccessModal}>Close</button>
+
                         </div>
                         
                     </div>

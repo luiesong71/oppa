@@ -66,7 +66,7 @@ export default function ArtGallery2(props) {
                 />
               </div>
               <h1 className="flex-grow text-[#FFCC33] text-base ml-2">
-                {item.price} ARC
+                {item.price} UTI
               </h1>
             </div>
             <Link href={`/account/${item.creator}`}>

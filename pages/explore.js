@@ -10,7 +10,7 @@ export default function ExplorePage() {
   return (
     <>
       <Head>
-        <title>Crypto ARC</title>
+        <title>Starus</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
