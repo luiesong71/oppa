@@ -1,9 +1,9 @@
 import Link from "next/link";
 export default function Paragraph1() {
   const title =
-    "STARUS STO MARKET에서 STO를 생성하고 판매해보세요";
+    "OPPA MARKET에서 OPPA NFT를 생성하고 판매해보세요";
   const description =
-    "STARUS STO MARKET에서 STO를 생성하고 판매해보세요";
+    "OPPA MARKET에서 OPPA NFT를 생성하고 판매해보세요";
 
   return (
     <div className="flex flex-col space-y-8 md:flex-row md:space-y-0 md:items-center m-8 sm:m-16 ">

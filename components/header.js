@@ -24,9 +24,9 @@ export default function Header(props) {
   const { themeMode, toggleThemeMode } = useContext(ThemeContext);
 
   const headers = [
-    { name: "STO마켓", href: "/explore " },
-    { name: "STO종목", href: "/categories" },
-    { name: "STO생성", href: "/create-nft" },
+    { name: "OPPA마켓", href: "/explore " },
+    { name: "OPPA종목", href: "/categories" },
+    { name: "OPPA생성", href: "/create-nft" },
   ];
 
   function classNames(...classes) {

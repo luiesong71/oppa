@@ -10,7 +10,7 @@ export default function ExplorePage() {
   return (
     <>
       <Head>
-        <title>Starus</title>
+        <title>OPPA</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 

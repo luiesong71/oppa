@@ -68,9 +68,9 @@ export default function ExplorePage() {
   return (
     <>
       <Head>
-        <title>Starus</title>
+        <title>OPPA</title>
         <link rel="icon" href="/favicon.png" />
-        <meta property="og:title" content="STARUS STO Market" />
+        <meta property="og:title" content=" STO Market" />
         <meta property="og:description" content="STO marketplace" />
         <meta property="og:image" content="https://untactict.vercel.app/assets/png/logo.png"/>
       </Head>
@@ -92,7 +92,7 @@ export default function ExplorePage() {
       >
         <div className={styles['modal-content']} >
           <br></br><br></br><br></br>
-          <h2 style={h2Style}>STARUS STO MARKET</h2>
+          <h2 style={h2Style}>OPPA MARKET</h2>
           <br></br>
           <ul>
             {coinData.map((coin) => (

@@ -19,7 +19,7 @@ export default function Footer() {
 
             <div className="flex-grow flex flex-col md:flex-row mt-0 md:mt-8">
               <div className="grow leading-8 my-8 md:my-0">
-                <h1 className="text-2xl leading-10">STO마켓</h1>
+                <h1 className="text-2xl leading-10">OPPA마켓</h1>
                 <p>Services</p>
                 <p>Packages</p>
                 <p>Telemedicine</p>
@@ -56,10 +56,10 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col lg:flex-row mx-4 mb-2 sm:mx-8 sm:mb-4 lg:mx-[6vw] lg:mb-[3vw]">
-            <p className="flex-none">© 2023 Starus. All rights reserved.</p>
+            <p className="flex-none">© 2024 OPPA. All rights reserved.</p>
             <p className="flex-none mx-0 lg:mx-8">Privacy policy</p>
             <p className="flex-grow">Terms & Conditions</p>
-            <p className="flex-none">Starus.com</p>
+            <p className="flex-none">OPPA.com</p>
           </div>
         </div>
       </div>

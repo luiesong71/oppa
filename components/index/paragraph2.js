@@ -212,7 +212,7 @@ export default function Paragraph2() {
         {/* galleries */}
         <div className="flex flex-cols">
           <h1 className="flex-grow text-white dark:text-gray-800 text-2xl sm:text-4xl font-bold">
-            STO마켓 소식
+            OPPA마켓 소식
           </h1>
           <Link href="/categories">
             <a className="flex-none text-right text-[#A2A6D0] dark:text-gray-800 dark:hover:text-gray-600">
@@ -233,7 +233,7 @@ export default function Paragraph2() {
               <ArtGallery1 galleries={galleries}></ArtGallery1>
             ) : (
               <a className="flex-none text-center text-[#A2A6D0] hover:text-white dark:text-gray-800 dark:hover:text-gray-600">
-                STO마켓 소식
+                OPPA마켓 소식
               </a>
             )}
           </>
